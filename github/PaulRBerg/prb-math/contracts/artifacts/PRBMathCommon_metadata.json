@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Common mathematical functions used in both PRBMathSD59x18 and PRBMathUD60x18. Note that this shared library does not always assume the signed 59.18-decimal fixed-point or the unsigned 60.18-decimal fixed-point",
+			"kind": "dev",
+			"methods": {},
+			"stateVariables": {
+				"SCALE": {
+					"details": "How many trailing decimals can be represented."
+				},
+				"SCALE_INVERSE": {
+					"details": "SCALE inverted mod 2^256."
+				},
+				"SCALE_LPOTD": {
+					"details": "Largest power of two divisor of SCALE."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/PaulRBerg/prb-math/contracts/PRBMathCommon.sol": "PRBMathCommon"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/PaulRBerg/prb-math/contracts/PRBMathCommon.sol": {
+			"keccak256": "0x65fe779faaa94967cb5561d21f90ec84c34bb38ed7861316df7aaf74ff2e3d73",
+			"license": "WTFPL",
+			"urls": [
+				"bzz-raw://f141a20fe603aabd0ee7e95d2cae1be6ddfe559391592d88b7a06276a4b2a9a3",
+				"dweb:/ipfs/QmcdbChoSbM6hmNytnRQsiwj1kPg2zNSmcHeF1fo4vvn7a"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Test13.sol": "DerivedFromDerived"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Test13.sol": {
+			"keccak256": "0xbb26abc90e6b3a82db8c13714f9ccb13855808beb08b1eafface256985b4678a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a22fb1a6421927fd9204f1b6b08dd8348b3457bdb0794b9470a2f430a85bf57a",
+				"dweb:/ipfs/QmYLj6y5qzXF3iX6mksdBmRBvwci3rmq3FyMCiHZswscVS"
+			]
+		}
+	},
+	"version": 1
+}

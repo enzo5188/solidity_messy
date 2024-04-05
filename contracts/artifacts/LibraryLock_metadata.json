@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "initialized",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC1822.sol": "LibraryLock"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC1822.sol": {
+			"keccak256": "0xcd4c9620674217154d35b8bb801d098873f44246768337edf1c48e691a315a8c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b2642017589ed57621c8fad635a28e18c6b0cedc6df35c1eafab83508cfca95f",
+				"dweb:/ipfs/QmdRiSnw6moDHzJdVVdiKAf9UGfV9gupPXkUZ7MFqBWyke"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "NewRequest",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "function (uint256) external",
+						"name": "callback",
+						"type": "function"
+					}
+				],
+				"name": "query",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "requestID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "response",
+						"type": "uint256"
+					}
+				],
+				"name": "reply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Test10.sol": "Oracle"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Test10.sol": {
+			"keccak256": "0xdd38ca9f416e10eb64d3b1f95dd116705cf8c72c76644687cd6b8f0dcaca5839",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2be6e2b01b71f12245abda6c78d0e5de5b50ac269b14fef689f594e93e78557",
+				"dweb:/ipfs/QmUTNQSEvhpByJXU7mhkCbJtXUJ5UKwYrgapVJdMCAEQt3"
+			]
+		}
+	},
+	"version": 1
+}

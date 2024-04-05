@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "salt",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "arg",
+						"type": "uint256"
+					}
+				],
+				"name": "createDSalted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Test14.sol": "C"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Test14.sol": {
+			"keccak256": "0xa8397840fea67103702e664b89ab163600233d0f218972a7c1666c859e4a8e14",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c0340738fe4badcd759995954ce72a60fc672cc3c0e444c23c2061d8c4b5492",
+				"dweb:/ipfs/QmQUMoUmToRdPqvsJEBFvGcgBMysLN6kBPhUynG7w6v7Tv"
+			]
+		}
+	},
+	"version": 1
+}

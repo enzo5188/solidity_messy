@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"get()": {
+					"notice": "获取状态变量并将值返回aaaa"
+				},
+				"set(uint256)": {
+					"notice": "将_num存储到状态变量num"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NetSpace.sol": "Demo1"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NetSpace.sol": {
+			"keccak256": "0x584e15c93df1cc67367027d6b045776fb4c4c5a44acc716c76fdf4dc0f2870cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://64e969f301fbb800d651ad279b95dbc00aafd53c67ecbdd2cb7fa222d4589c5f",
+				"dweb:/ipfs/QmcQmwshrki6D1zkhHceEppiuA873gfcMb4FxAX22L3sy4"
+			]
+		}
+	},
+	"version": 1
+}

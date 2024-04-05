@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TigerERC20.sol": "Tiger"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TigerERC20.sol": {
+			"keccak256": "0x5a54eba64900ca2765f57f396bee6fd9398b1359330ba051c950f93c1f3fe41b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://005c1461b642ead9879318475a9d1a6506b334e354567ae5b7b2512b9e204ad0",
+				"dweb:/ipfs/QmZVmtxj1BsDwK6a7dVRWrCaZaGSYh9FtmDQhZzsNKT4qC"
+			]
+		}
+	},
+	"version": 1
+}

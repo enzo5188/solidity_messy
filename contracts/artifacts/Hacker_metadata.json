@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Demo5.sol": "Hacker"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Demo5.sol": {
+			"keccak256": "0x459248af8bf962c3a3a4d4f29ef08ee4875e7d9b1e6347e7b6bf884c3aa28735",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66b458fde4bd644b98712575b227929e7f8eff9dd146ba7ab98559bad0983dd7",
+				"dweb:/ipfs/QmSLQXAHyoiSVMoe4EssnH8zYgkWafgv1Y5gfF3EqZpa3Q"
+			]
+		}
+	},
+	"version": 1
+}

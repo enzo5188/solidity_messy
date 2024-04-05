@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "dynamicArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getlocaltion",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "c",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Test.sol": "DynamicSizeVariable"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/Test.sol": {
+			"keccak256": "0x302adc9b34a76081dc36d351463a104253390b24041f0ae2049d9881c5da6ba9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e856280f42e29a54ac06278ac5230d8a5dd20c6c3d317e81a78ebb7394c792a",
+				"dweb:/ipfs/QmYArSjEDKx92sgkLHsFGg9WL1qe6ttfjDgDREfJ8qKDYY"
+			]
+		}
+	},
+	"version": 1
+}

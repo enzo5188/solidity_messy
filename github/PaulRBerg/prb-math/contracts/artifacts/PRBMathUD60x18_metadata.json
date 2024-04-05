@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"author": "Paul Razvan Berg",
+			"kind": "dev",
+			"methods": {},
+			"stateVariables": {
+				"HALF_SCALE": {
+					"details": "Half the SCALE number."
+				},
+				"LOG2_E": {
+					"details": "log2(e) as an unsigned 60.18-decimal fixed-point number."
+				},
+				"MAX_UD60x18": {
+					"details": "The maximum value an unsigned 60.18-decimal fixed-point number can have."
+				},
+				"MAX_WHOLE_UD60x18": {
+					"details": "The maximum whole value an unsigned 60.18-decimal fixed-point number can have."
+				},
+				"SCALE": {
+					"details": "How many trailing decimals can be represented."
+				}
+			},
+			"title": "PRBMathUD60x18",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Smart contract library for advanced fixed-point math. It works with uint256 numbers considered to have 18 trailing decimals. We call this number representation unsigned 60.18-decimal fixed-point, since there can be up to 60 digits in the integer part and up to 18 decimals in the fractional part. The numbers are bound by the minimum and the maximum values permitted by the Solidity type uint256.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/PaulRBerg/prb-math/contracts/PRBMathUD60x18.sol": "PRBMathUD60x18"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/PaulRBerg/prb-math/contracts/PRBMathCommon.sol": {
+			"keccak256": "0x65fe779faaa94967cb5561d21f90ec84c34bb38ed7861316df7aaf74ff2e3d73",
+			"license": "WTFPL",
+			"urls": [
+				"bzz-raw://f141a20fe603aabd0ee7e95d2cae1be6ddfe559391592d88b7a06276a4b2a9a3",
+				"dweb:/ipfs/QmcdbChoSbM6hmNytnRQsiwj1kPg2zNSmcHeF1fo4vvn7a"
+			]
+		},
+		"github/PaulRBerg/prb-math/contracts/PRBMathUD60x18.sol": {
+			"keccak256": "0x57adfb89fc00d1efbd9668eb165286aec1fdb3327538ea1e96fa793130ba621e",
+			"license": "WTFPL",
+			"urls": [
+				"bzz-raw://f6148d9f2c2268dcaf17c1f2d8104ea266e2bda3fc6ad51f7136c9574be48f5a",
+				"dweb:/ipfs/QmPkRUVAGvSriqpXkSEFgDbR9ZFgSsqNxPapcpxfXwMSxs"
+			]
+		}
+	},
+	"version": 1
+}

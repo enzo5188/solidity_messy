@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Matt Condon (@shrugs)",
+			"details": "Implements ERC165 using a lookup table.",
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "A contract implementing SupportsInterfaceWithLookup implement ERC165 itself"
+				},
+				"supportsInterface(bytes4)": {
+					"details": "implement supportsInterface(bytes4) using a lookup table"
+				}
+			},
+			"stateVariables": {
+				"_supportedInterfaces": {
+					"details": "a mapping of interface id to whether or not it's supported"
+				}
+			},
+			"title": "ERC165",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC165.sol": "ERC165"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC165.sol": {
+			"keccak256": "0x41a559828d95b3af101074c91155806e3074598ee6816193ea41625503032454",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a37480c12abde1202e4cf75548779f52c8676d49be8bb27299b9c4d8877ffee7",
+				"dweb:/ipfs/QmYwZaAf7aDAUtchWQ8ga76wKcG1C7DsizanNzNj8adBEK"
+			]
+		},
+		"contracts/IERC165.sol": {
+			"keccak256": "0x811dcf9474d4e4540f82215323b8b5ca311ec416c986666adfbd7771ceafd759",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51f6db4f89ea07219e768efcc4481cdad016bcf5ebc5f66a512f63f30269c390",
+				"dweb:/ipfs/QmRmNcShBTYoDLGzw4WvQqxUFFxgJKxvT3EJFEkv376zpP"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "data",
+						"type": "bytes32"
+					}
+				],
+				"name": "getDateFromLocal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "ads1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "ads2",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "slot",
+						"type": "uint256"
+					}
+				],
+				"name": "mapLocation",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "local2",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Test1.sol": "Test"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Test1.sol": {
+			"keccak256": "0x94bea14e6fdc329b5a1fefeff08fc74b11d7e92ba7a4070cfd9e6ceb19110cd1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://edc1c881d34e661abbd08bf127e728cdad8446f86d14817c11a1b73e17f23c6f",
+				"dweb:/ipfs/QmZDimBpCqCiRDgxN3KHw7HKs3BVLeFuw6CYRMmdVshWQ2"
+			]
+		}
+	},
+	"version": 1
+}

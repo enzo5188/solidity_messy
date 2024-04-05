@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Test.sol": "Pyramid"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/Test.sol": {
+			"keccak256": "0xd88853f5f97e47b3a7094702ba5e93f8a9ed6febb57930191b047e1dc177e75d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e2af7df023bb92e9d0c80f252768195a03df4d06a4275553a8c7aae2c516c8f4",
+				"dweb:/ipfs/QmNSLM2oLyxVUq7wUyhAm5Q69iBSPiXqwm7xWnTD6HzwLm"
+			]
+		}
+	},
+	"version": 1
+}
