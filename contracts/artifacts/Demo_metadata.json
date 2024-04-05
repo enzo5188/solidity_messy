@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,17 +8,55 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint8",
+						"name": "value",
+						"type": "uint8"
+					}
+				],
+				"name": "toStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
-						"name": "num",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"name": "test",
+				"name": "toStr1",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
 						"type": "uint256"
+					}
+				],
+				"name": "toStr2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,9 +76,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Demo15.sol": "Demo"
+			"contracts/Demo10.sol": "Demo"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -52,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Demo15.sol": {
-			"keccak256": "0x3bb24bfcc6cb146caa57863f36aa6b183c429015420f0d5b688677e097ad7cb1",
+		"contracts/Demo10.sol": {
+			"keccak256": "0x63d0bc7f1d85d6015de31875b4048234162cdbbc401dded5ba7fd892608d262a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0cebe87bf3acf4a070ec7e514a6e78b7d068ad4ea9ff30567c2c690f73a6d582",
-				"dweb:/ipfs/QmcXbRaspVhPVWbSfwsTTdPyYXBrUA5kHC3GrrpL7584c8"
+				"bzz-raw://c0b430ebcb43d5989651837eb1023dd91df1d9389fe072cab6dc2af9a30a5fe6",
+				"dweb:/ipfs/QmXb3pGj27SgLBpVujcCxz2joFrZfPsT6Ja3pUNqFexFtJ"
 			]
 		}
 	},
