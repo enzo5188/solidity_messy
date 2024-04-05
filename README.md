@@ -1566,7 +1566,7 @@ contract Demo{
     3.remix ide 如果选择的evm 在remix vm(shanghai)之前，编译器版本必须少于等于0.8.19
     4.remix ide 在线版本很不稳定
 
-    合约数据存储布局？aa
+    合约数据存储布局？
     内联汇编？
 72. abi.encode 跟 abi.encodePacked 区别
 16. indexed 
