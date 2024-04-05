@@ -3,7 +3,7 @@ pragma solidity ^0.8.18;
 
 contract Demo {
     
-    // 第一种方式 将数字0-9转换成string 0-90
+    // 第一种方式 将数字0-9转换成string 0-9
     function toStr(uint8 value) public pure  returns(string memory){
         require(value < 10,"error value");
         bytes memory alphabet = "0123456789";
