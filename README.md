@@ -1565,6 +1565,9 @@ contract Demo{
     2.goerli测试网络 已经停用
     3.remix ide 如果选择的evm 在remix vm(shanghai)之前，编译器版本必须少于等于0.8.19
     4.remix ide 在线版本很不稳定
+    5.remix dgit中只能使用https的远程分支，不能使用ssh格式的 , 同时在remix中使用dgit不需要关闭vpn
+    6.vscode 跟 git base控制台必须关闭vpn,同时只能使用ssh格式的。
+
 
     合约数据存储布局？
     内联汇编？
